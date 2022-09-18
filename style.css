@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	user-select: none;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+button {
+	width: 5rem;
+	height: 2rem;
+	border: none;
+	border-radius: 0.3rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 300ms;
+}
+
+#startBtn {
+	color: blue;
+	outline: 1px blue solid;
+}
+#stopBtn {
+	color: red;
+	outline: 1px red solid;
+}
+#resetBtn {
+	color: gray;
+	outline: 1px gray solid;
+}
+
+#startBtn:hover {
+	color: white;
+	background-color: blue;
+}
+#stopBtn:hover {
+	color: white;
+	background-color: red;
+}
+#resetBtn:hover {
+	color: white;
+	background-color: gray;
+}
+
+#screen {
+	height: 3rem;
+	font-size: 2rem;
+}
